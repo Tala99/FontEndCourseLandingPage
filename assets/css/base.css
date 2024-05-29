@@ -30,6 +30,7 @@ ul{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;/*بشكل عامودي يجوا جنب بعض*/
+    align-items: flex-start;
 }
 .active{
     font-weight: 900;

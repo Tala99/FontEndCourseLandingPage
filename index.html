@@ -1,169 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Start Bootstrap</title>
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
+
 <body>
     <!--navbar section-->
- <header class="header">
-    <div class="container">
-        <div class="row">
-            <div class="logo"> 
-                <img src="./assets/img/Logo.svg" alt="our blue and white logo">
-                <a href="#">Mangcoding Store</a>
-
-            </div>
-            
-            <nav class="nav">
-                <ul><li>
-                    <a href="#" class="active">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Course</a>
-                    </li>
-                    <li>
-                        <a href="#">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Article</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <svg  class="bars-icon" width="20px" hight="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
-    
-            <div class="auth">
-                <a href="#">Log in</a>
-                <a href="#">Register</a>
-            </div>
-        </div>
-        
-    </div>   
- </header>
-
- <!--Testimonials section-->
- <main>
-    <section class="testimonials">
-        <h2>Testimonials</h2>
+    <header class="header">
         <div class="container">
             <div class="row">
-                <div class="testimonial">
-                    <div class="user-info">
-                        <img src="./assets/img/Friskidia1.png" alt="girl"/>
-                        <div class="user-data">
-                            <h3>Friskidia</h3>
-                            <span>Client</span>
-                        </div>
-                    </div>
-                    <div class="rating">
-                        <img src="./assets/img/Star.png" alt="yellow star"/>
-                    <img src="./assets/img/Star.png" alt="yellow star"/>
-                    <img src="./assets/img/Star.png" alt="yellow star"/>
-                    <img src="./assets/img/Star.png" alt="yellow star"/>
-                    <img src="./assets/img/Star.png" alt="yellow star"/>
-                    </div>
-                    <blockquote>
-                        <q> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum dapibus luctus.  </q>
-                    </blockquote>
-                </div>
-                <div class="testimonial">
-                    <div class="user-info">
-                        <img src="./assets/img/Friskidia2.png" alt="girl"/>
-                        <div class="user-data">
-                            <h3>Friskidia</h3>
-                            <span>Client</span>
-                        </div>
-                    </div>
-                    <div class="rating">
-                        <img src="./assets/img/Star.png" alt="yellow star"/>
-                    <img src="./assets/img/Star.png" alt="yellow star"/>
-                    <img src="./assets/img/Star.png" alt="yellow star"/>
-                    <img src="./assets/img/Star.png" alt="yellow star"/>
-                    <img src="./assets/img/Star.png" alt="yellow star"/>
-                    </div>
-                    <blockquote>
-                        <q> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum dapibus luctus.  </q>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </section>
- </main>
+                <div class="logo">
+                    <img src="./assets/img/Logo.svg" alt="our blue and white logo">
+                    <a href="#">Mangcoding Store</a>
 
-  <!--footer section-->
- <footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-start">
-                <div class="logo"> <img src="./assets/img/Footer-Logo.svg" alt="our blue and white logo">
-                 <a href="#">Mangcoding Store</a> 
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis, justo nec porttitor auctor, erat sapien faucibus lectus, vel tempor dolor augue et lectus. </p>
-                <div class="icons">
-                <a href="#"><img src="./assets/img/facebook.svg"alt="our facebook logo"></a>
-                <a href="#"><img src="./assets/img/Twitter.svg"alt="our Twitter logo"></a>
-                <a href="#"><img src="./assets/img/linkedin.svg"alt="our linkedin logo"></a>
-                <a href="#"><img src="./assets/img/instagram.svg"alt="our instagram logo"></a>
+
+                <nav class="nav">
+                    <ul>
+                        <li>
+                            <a href="#" class="active">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Course</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Article</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <svg class="bars-icon" width="20px" hight="20px" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                </svg>
+
+                <div class="auth">
+                    <a href="#">Log in</a>
+                    <a href="#">Register</a>
                 </div>
             </div>
-            <div class="footer-end">
-             <div class="row">
-                <div class="footer-item">
-                    <h2>Home</h2>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Product</a></li>
-                            <li><a href="#">Course</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Log in</a></li>
-                        </ul>
-                    </nav>
-                </div> 
-                <div class="footer-item">
-                    <h2>Course</h2>
-                    <nav>
-                        <ul>
-                            <li><a href="#">HTML & CSS</a></li>
-                            <li><a href="#">JavaScript</a></li>
-                            <li><a href="#">Photographer</a></li>
-                            <li><a href="#">design graphic</a></li>
-                        </ul>
-                    </nav>
-                </div>     
-                <div class="footer-item">
-                    <h2>Artical</h2>
-                    <nav>
-                        <ul>
-                            <li><a href="#">New</a></li>
-                            <li><a href="#">Old</a></li>
-                            <li><a href="#">Trend</a></li>
-                            <li><a href="#">Populer</a></li>
-                        </ul>
-                    </nav>
-                </div>     
-                <div class="footer-item">
-                    <h2>Contact Us</h2>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="#">CCdoc123@gmail.com</a>
-                            </li>
-                        </ul>
-                    </nav>
+
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <!--selected courses-->
+        <section class="selected-course">
+            <div class="container">
+                <div class="row">
                     
+                        <img src="./assets/img/selectedimg.png" alt="girl and boy are styding" />
+
                     
-                    
-                </div> 
-             </div>                   
+                    <div class="selected-description">
+                        <span>SELECTED COURSE</span>
+                        <h2>People Taking Courses</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                        <div class="selected-description-views">
+                            <div class="row">
+                                <span>6000</span>
+                                <span>4000</span>
+                                <span>100</span>
+                            </div>
+                            <div class="row secand-row">
+                                <span>People Views</span>
+                                <span>User</span>
+                                <span>Course</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Available Courses -->
+        <section calss="Courses">
+            <div class="container">
+                <div class="row">
+                    <div class="course-items">
+                        <div class="course">
+                            <div class="course-card">
+                                <img src="./assets/img/HTML&CSS.png" alt="white laptop in table">
+                                <div class="course-info">
+                                    <span>Best Course</span>
+                                    <span>$ 20 USD</span>
+                                </div>
+                            </div>
+                            <div class="course-details">
+                                <div class="row">
+                                    <h3>HTML & CSS</h3>
+                                    <span>1500 views</span>
+                                </div>
+                                <div class="row">
+                                    <span>120 Videos</span>
+                                    <span>2 Teacher</span>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                        <div class="course">
+                            <div class="course-card">
+                                <img src="./assets/img/Photographer.png" alt="man with black camera in market">
+                                <div class="course-info">
+                                    <span>Best Course</span>
+                                    <span>$ 20 USD</span>
+                                </div>
+                            </div>
+
+                            <div class="course-details">
+                                <div class="row">
+                                    <h3>Photographer</h3>
+                                    <span>1500 views</span>
+                                </div>
+                                <div class="row">
+                                    <span>120 Videos</span>
+                                    <span>2 Teacher</span>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+                        <div class="course">
+                            <div class="course-card">
+                                <img src="./assets/img/JavaScript.png" alt="lines of code">
+                                <div class="course-info">
+                                    <span>Best Course</span>
+                                    <span>$ 20 USD</span>
+                                </div>
+                            </div>
+                            <div class="course-details">
+                                <div class="row">
+                                    <h3>JavaScript</h3>
+                                    <span>1500 views</span>
+                                </div>
+                                <div class="row">
+                                    <span>120 Videos</span>
+                                    <span>2 Teacher</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="course">
+                            <div class="course-card">
+                                <img src="./assets/img/DesainGrafies.png" alt=" kkeyboard,headset and notebook">
+                                <div class="course-info">
+                                    <span>Best Course</span>
+                                    <span>$ 20 USD</span>
+                                </div>
+                            </div>
+                            <div class="course-details">
+                                <div class="row">
+                                    <h3>Desain Grafies</h3>
+                                    <span>1500 views</span>
+                                </div>
+                                <div class="row">
+                                    <span>120 Videos</span>
+                                    <span>2 Teacher</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="course-description">
+
+                        <span>AVAILABLE FOR YOU</span>
+                        <h2>Available Courses</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis
+                            molestie.</p>
+                        <a href="#">See all</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Testimonials section-->
+        <section class="testimonials">
+            <h2>Testimonials</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="testimonial">
+                        <div class="user-info">
+                            <img src="./assets/img/Friskidia1.png" alt="girl" />
+                            <div class="user-data">
+                                <h3>Friskidia</h3>
+                                <span>Client</span>
+                            </div>
+                        </div>
+                        <div class="rating">
+                            <img src="./assets/img/Star.png" alt="yellow star" />
+                            <img src="./assets/img/Star.png" alt="yellow star" />
+                            <img src="./assets/img/Star.png" alt="yellow star" />
+                            <img src="./assets/img/Star.png" alt="yellow star" />
+                            <img src="./assets/img/Star.png" alt="yellow star" />
+                        </div>
+                        <blockquote>
+                            <q> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum dapibus luctus.
+                            </q>
+                        </blockquote>
+                    </div>
+                    <div class="testimonial">
+                        <div class="user-info">
+                            <img src="./assets/img/Friskidia2.png" alt="girl" />
+                            <div class="user-data">
+                                <h3>Friskidia</h3>
+                                <span>Client</span>
+                            </div>
+                        </div>
+                        <div class="rating">
+                            <img src="./assets/img/Star.png" alt="yellow star" />
+                            <img src="./assets/img/Star.png" alt="yellow star" />
+                            <img src="./assets/img/Star.png" alt="yellow star" />
+                            <img src="./assets/img/Star.png" alt="yellow star" />
+                            <img src="./assets/img/Star.png" alt="yellow star" />
+                        </div>
+                        <blockquote>
+                            <q> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum dapibus luctus.
+                            </q>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--footer section-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-start">
+                    <div class="logo"> <img src="./assets/img/Footer-Logo.svg" alt="our blue and white logo">
+                        <a href="#">Mangcoding Store</a>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis, justo nec porttitor auctor,
+                        erat sapien faucibus lectus, vel tempor dolor augue et lectus. </p>
+                    <div class="icons">
+                        <a href="#"><img src="./assets/img/facebook.svg" alt="our facebook logo"></a>
+                        <a href="#"><img src="./assets/img/Twitter.svg" alt="our Twitter logo"></a>
+                        <a href="#"><img src="./assets/img/linkedin.svg" alt="our linkedin logo"></a>
+                        <a href="#"><img src="./assets/img/instagram.svg" alt="our instagram logo"></a>
+                    </div>
+                </div>
+                <div class="footer-end">
+                    <div class="row">
+                        <div class="footer-item">
+                            <h2>Home</h2>
+                            <nav>
+                                <ul>
+                                    <li><a href="#">Product</a></li>
+                                    <li><a href="#">Course</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Log in</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer-item">
+                            <h2>Course</h2>
+                            <nav>
+                                <ul>
+                                    <li><a href="#">HTML & CSS</a></li>
+                                    <li><a href="#">JavaScript</a></li>
+                                    <li><a href="#">Photographer</a></li>
+                                    <li><a href="#">design graphic</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer-item">
+                            <h2>Artical</h2>
+                            <nav>
+                                <ul>
+                                    <li><a href="#">New</a></li>
+                                    <li><a href="#">Old</a></li>
+                                    <li><a href="#">Trend</a></li>
+                                    <li><a href="#">Populer</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer-item">
+                            <h2>Contact Us</h2>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="#">CCdoc123@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
- </footer>
-    
+    </footer>
+
 </body>
+
 </html>
